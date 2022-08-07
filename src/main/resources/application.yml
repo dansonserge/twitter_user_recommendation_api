@@ -1,0 +1,17 @@
+server:
+  port: ${APP_PORT:8080}
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/twitter_db?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: ${DB_USER}
+    password: ${DB_PWD}
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+  application:
+    name: twitter-user-recommendation
