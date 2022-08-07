@@ -32,7 +32,8 @@ user_id_2\tscreen_name_2\tdescription_2\tcontact_tweet_text
 - You can also use Swagger UI at [the Swagger UI link]( http://localhost:8080/swagger-ui/index.html ) to test the end point right in your browser. Note that this will work if the app is running.
 
 
-![](../../../../../../../Users/sergedanson/Desktop/Screen shot Swagger UI for the twitter  User Recommendation API.png)
+
+![Screen shot Swagger UI for the twitter  User Recommendation API](https://user-images.githubusercontent.com/3751143/183303602-08cd0f2b-9a3b-4cc2-93ac-989a80e307e2.png)
 
 
 
